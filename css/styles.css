@@ -6,20 +6,12 @@
   /* Text colors */
   --main-txt-cl: #212121;
   --second-txt-cl: #757575;
-  --light-txt-cl: #ffffff;
-  --accent-txt-cl: #2196f3;
+  --accent-txt-cl: #F8D24E;
+  
   --light-txt-cl-60: rgba(255, 255, 255, 0.6);
   
   /* Background colors */
-  --accent-bg-cl: #f5f5f5;
-  --main-bg-cl: #ffffff;
-  /* --second-bg-cl: #2f303a;
-  --btn-filter-bg-cl: #f5f4fa;
-  --btn-filter-act-cl: #2196f3;
-  --btn-hero-cl: #2196f3;
-  --bnt-act-cl: #188ce8;
-  --team-bg-cl: #f5f4fa;
-  --footer-icon-bg-cl: rgba(255, 255, 255, 0.1); */
+  --main-bg-cl: #84A278;
 
   /* Others */
 
@@ -63,10 +55,10 @@ img {
   padding: 0;
 }
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .container {
   width: 1200px;
@@ -79,6 +71,17 @@ img {
 }
 
 /* Header */
+
+.page-header {
+  background-color: var(--main-bg-cl);
+}
+
+.page-header .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
 
 .header_container {
   display: flex;
@@ -96,15 +99,15 @@ img {
 
 .site-nav {
   padding-top: 40px;
-  margin-left: ;
+  margin-left: 50px;
   display: flex;
   gap: 27px;
   align-items: center;
 }
 
-.site-nav .link.current {
+/* .site-nav .link.current {
   color: var(--accent-txt-cl);
-}
+} */
 
 .contacts-nav {
   padding-top: 32px;
@@ -119,7 +122,22 @@ img {
   align-items: center;
 }
 
-.header-icons {
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 32px;
+  height: 32px;
+  /* background-color: transparent; */
+  border: none;
+  cursor: pointer;
+}
+
+.header_icon {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -127,24 +145,6 @@ img {
 .contact-link:not(:last-child) {
   margin-right: 50px;
 }
-
-.page-header {
-  background-color: var(--main-bg-cl);
-}
-
-.page-header .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-}
-
-.page-header .link:hover,
-.page-header .link:focus {
-  color: var(--accent-txt-cl);
-}
-
-
 
 /* Hero */
 
