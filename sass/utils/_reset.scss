@@ -1,0 +1,71 @@
+:root {
+    /* Fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* Text colors */
+    --main-txt-cl: #FCFCFC;
+    --second-txt-cl: #131313;
+    --accent-txt-cl: #F8D24E;
+
+    --light-txt-cl-60: rgba(255, 255, 255, 0.6);
+
+    /* Background colors */
+    --main-bg-cl: #84A278;
+
+    /* Others */
+
+}
+
+.page {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    background-color: var(--main-bg-cl);
+}
+
+/* Reset style */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} */
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}

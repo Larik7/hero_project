@@ -4,8 +4,8 @@
   --secondary-font: 'Raleway', sans-serif;
 
   /* Text colors */
-  --main-txt-cl: #212121;
-  --second-txt-cl: #757575;
+  --main-txt-cl: #FCFCFC;
+  --second-txt-cl: #131313;
   --accent-txt-cl: #F8D24E;
   
   --light-txt-cl-60: rgba(255, 255, 255, 0.6);
@@ -55,11 +55,6 @@ img {
   padding: 0;
 }
 
-/* .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -73,63 +68,39 @@ img {
 /* Header */
 
 .page-header {
-  background-color: var(--main-bg-cl);
-}
-
-.page-header .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
+  /* background-color: var(--main-bg-cl); */
 }
 
 .header_container {
   display: flex;
+  align-items: center;
 }
 
 .header_nav {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  margin-left: 270px;
+  margin-right: auto;
 }
 
-.logo {
-  
-}
-
-.site-nav {
+.nav {
   padding-top: 40px;
-  margin-left: 50px;
+  padding-bottom: 14px;
   display: flex;
   gap: 27px;
   align-items: center;
 }
 
-/* .site-nav .link.current {
-  color: var(--accent-txt-cl);
-} */
-
-.contacts-nav {
-  padding-top: 32px;
-  padding-bottom: 32px;
+.modal_group {
   display: flex;
+  gap: 32px;
   align-items: center;
-}
-
-.header-link {
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.menu-btn {
+.menu_btn {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   width: 32px;
   height: 32px;
   /* background-color: transparent; */
@@ -137,13 +108,20 @@ img {
   cursor: pointer;
 }
 
-.header_icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.contact-link:not(:last-child) {
-  margin-right: 50px;
+.buy_btn {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* margin-top: 24px;
+  margin-bottom: 6px; */
+  width: 152px;
+  height: 42px;
+  background: #F8D24E;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /* Hero */
