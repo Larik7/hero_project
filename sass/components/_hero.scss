@@ -1,0 +1,102 @@
+.hero {
+    background-color: var(--main-bg-cl);
+
+    &_title {
+        width: 247px;
+        height: 97px;
+        margin-bottom: 32px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: calc(33 / 26);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--main-txt-cl);
+
+        @media screen and (min-width: 768px) {
+            width: 181px;
+            height: 74px;
+            margin-bottom: 21px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: calc(23 / 18);
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 367px;
+            height: 144px;
+            margin-bottom: 28px;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: calc(48 / 38);
+        }
+    }
+}
+
+
+.btn-group {
+    display: flex;
+    gap: 8px;
+}
+
+.poducts-btn {
+    display: flex;
+    width: 62px;
+    min-height: 24px;
+    border: 2px solid #F8D24E;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: calc(10 / 8);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    outline: none;
+    color: var(--second-txt-cl);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.poducts-btn:hover {
+    border-color: #0A8817;
+    
+}
+
+.poducts-btn:focus {
+    border-color: #88470a;
+}
+
+// .hero-button:active {
+    
+// }
+
+.link-not:focus {
+    outline: none;
+}
+
+.how-btn {
+    display: flex;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: calc(10 / 8);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    text-decoration-line: underline;
+    outline: none;
+    color: var(--accent-txt-cl);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.how-btn:hover {
+    color: #0A8817;
+}
+
+.how-btn:focus {
+    color: #88470a;
+}

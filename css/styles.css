@@ -1,23 +1,23 @@
-:root {
+/* :root { */
   /* Fonts */
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  /* --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif; */
 
   /* Text colors */
-  --main-txt-cl: #FCFCFC;
+  /* --main-txt-cl: #FCFCFC;
   --second-txt-cl: #131313;
   --accent-txt-cl: #F8D24E;
   
-  --light-txt-cl-60: rgba(255, 255, 255, 0.6);
+  --light-txt-cl-60: rgba(255, 255, 255, 0.6); */
   
   /* Background colors */
-  --main-bg-cl: #84A278;
+  /* --main-bg-cl: #84A278; */
 
   /* Others */
 
-}
+/* } */
 
-.page {
+/* .page {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -25,11 +25,11 @@
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
   background-color: var(--main-bg-cl);
-}
+} */
 
 /* Reset style */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -63,15 +63,15 @@ img {
   margin-right: auto;
   outline: 2px solid red;
   outline-offset: -2px;
-}
+} */
 
 /* Header */
 
-.page-header {
-  /* background-color: var(--main-bg-cl); */
-}
+/* .page-header {
+  background-color: var(--main-bg-cl);
+} */
 
-.header_container {
+/* .header_container {
   display: flex;
   align-items: center;
 }
@@ -94,9 +94,9 @@ img {
   gap: 32px;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.menu_btn {
+/* .menu_btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,19 +104,19 @@ img {
   width: 32px;
   height: 32px;
   font-family: inherit;
-  /* background-color: transparent; */
+  background-color: transparent;
   border: none;
   cursor: pointer;
-}
+} */
 
-.buy_btn {
+/* .buy_btn {
   display: flex;
   gap: 12px;
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  /* margin-top: 24px;
-  margin-bottom: 6px; */
+  margin-top: 24px;
+  margin-bottom: 6px;
   font-family: inherit;
   width: 152px;
   height: 42px;
@@ -124,11 +124,11 @@ img {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-}
+} */
 
 /* Hero */
 
-.hero-section {
+/* .hero-section {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -182,4 +182,4 @@ img {
 
 .hero-button:active {
   background-color: var(--bnt-act-cl);
-}
+} */

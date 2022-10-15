@@ -8,8 +8,6 @@
     --second-txt-cl: #131313;
     --accent-txt-cl: #F8D24E;
 
-    --light-txt-cl-60: rgba(255, 255, 255, 0.6);
-
     /* Background colors */
     --main-bg-cl: #84A278;
 
@@ -24,7 +22,7 @@
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
-    background-color: var(--main-bg-cl);
+    // background-color: var(--main-bg-cl);
 }
 
 /* Reset style */
@@ -55,17 +53,12 @@ img {
     padding: 0;
 }
 
-/* .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
-
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px solid red;
-    outline-offset: -2px;
-}
+// .container {
+//     width: 1200px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     outline: 2px solid red;
+//     outline-offset: -2px;
+// }
