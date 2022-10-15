@@ -103,6 +103,7 @@ img {
   padding: 0;
   width: 32px;
   height: 32px;
+  font-family: inherit;
   /* background-color: transparent; */
   border: none;
   cursor: pointer;
@@ -116,6 +117,7 @@ img {
   margin-left: auto;
   /* margin-top: 24px;
   margin-bottom: 6px; */
+  font-family: inherit;
   width: 152px;
   height: 42px;
   background: #F8D24E;
