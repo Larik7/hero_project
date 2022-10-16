@@ -346,9 +346,5 @@ img {
 }
 
 .ice-cream {
-  position: absolute;
-}
-
-.decor {
-  position: absolute;
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
