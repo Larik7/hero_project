@@ -209,9 +209,7 @@ img {
 }
 
 .hero {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
   padding-top: 50px;
   background-color: var(--main-bg-cl);
 }
@@ -253,6 +251,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 8px;
+  margin-bottom: 20px;
 }
 
 .poducts-btn {
@@ -344,4 +343,12 @@ img {
 
 .how-btn:focus {
   color: #88470a;
+}
+
+.ice-cream {
+  position: absolute;
+}
+
+.decor {
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
