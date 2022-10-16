@@ -22,6 +22,7 @@
   /* Fonts */
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --title-font: "Seymour One", sans-serif;
   /* Text colors */
   --main-txt-cl: #FCFCFC;
   --second-txt-cl: #131313;
@@ -167,6 +168,7 @@ img {
   padding: 0;
   width: 32px;
   height: 32px;
+  background-color: transparent;
   border: none;
   cursor: pointer;
 }
@@ -207,12 +209,17 @@ img {
 }
 
 .hero {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
   background-color: var(--main-bg-cl);
 }
 .hero_title {
   width: 247px;
   height: 97px;
   margin-bottom: 32px;
+  font-family: var(--title-font);
   font-weight: 400;
   font-size: 26px;
   line-height: 1.2692307692;
@@ -276,6 +283,14 @@ img {
   background-color: transparent;
   cursor: pointer;
 }
+@media screen and (min-width: 1200px) {
+  .poducts-btn {
+    width: 132px;
+    min-height: 42px;
+    font-size: 14px;
+    line-height: 1.2857142857;
+  }
+}
 
 .poducts-btn:hover {
   border-color: #0A8817;
@@ -315,6 +330,12 @@ img {
   color: var(--accent-txt-cl);
   background-color: transparent;
   cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .how-btn {
+    font-size: 14px;
+    line-height: 1.2142857143;
+  }
 }
 
 .how-btn:hover {
