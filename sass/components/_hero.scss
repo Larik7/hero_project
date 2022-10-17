@@ -4,12 +4,41 @@
     padding-top: 50px;
     padding-bottom: 240px;
     background-color: var(--main-bg-cl);
+    background-image: url(..//images/ice_cream/2v1_sm-@1x-320.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url(..//images/ice_cream/2v1_sm-@2x-640.png);
+    }
+    
+    @media screen and (min-width: 481px) {
+        background-image: url(..//images/ice_cream/2v1_md-@1x-768.png);
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(..//images/ice_cream/2v1_md-@2x-1535.png);
+        }
+    }
+    
+    @media screen and (min-width: 769px) {
+        background-image: url(..//images/ice_cream/2v1_lg-@1x-1200.png);
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(..//images/ice_cream/2v1_lg-@2x-2400.png);
+        }
+    }
 
     &_title {
         width: 247px;
         height: 97px;
         margin-bottom: 32px;
-        margin-right: auto;
         font-family: var(--title-font);
         font-weight: 400;
         font-size: 26px;
@@ -40,6 +69,9 @@
 
 .hero__container {
     position: relative;
+}
+
+.top-hero {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
@@ -48,10 +80,9 @@
     margin: 0 auto;
 }
 
-.btn-group {
+.hero-group {
     display: flex;
-    gap: 8px;
-    // margin-right: auto;
+    flex-direction: column;
     // margin-bottom: 56px;
 }
 
@@ -143,29 +174,29 @@
     }
 }
 
-.group-img {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
+// .group-img {
+//     display: flex;
+//     justify-content: center;
+//     margin: 0 auto;
+// }
 
-.ice-cream {
-    position: absolute;
-    top: 85px;
-    z-index: 10;
-}
+// .ice-cream {
+//     position: absolute;
+//     top: 85px;
+//     z-index: 10;
+// }
 
-.many-ice-cream {
-    display: none;
-    position: absolute;
-    left: 32px;
-    top: 200px;
-    z-index: 100;
+// .many-ice-cream {
+//     display: none;
+//     position: absolute;
+//     left: 32px;
+//     top: 200px;
+//     z-index: 100;
 
-    @media screen and (min-width: 768px) {
-        display: block;
-    }
-}
+//     @media screen and (min-width: 768px) {
+//         display: block;
+//     }
+// }
 
 .chain-of-stores {
     text-align: end;
