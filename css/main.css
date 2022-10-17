@@ -225,6 +225,7 @@ img {
   width: 247px;
   height: 97px;
   margin-bottom: 32px;
+  margin-right: auto;
   font-family: var(--title-font);
   font-weight: 400;
   font-size: 26px;
@@ -256,6 +257,24 @@ img {
 
 .hero__container {
   position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 50%;
+     -moz-column-gap: 50%;
+          column-gap: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
 }
 
 .btn-group {
@@ -263,6 +282,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 8px;
+  margin-right: auto;
+  margin-bottom: 56px;
 }
 
 .poducts-btn {
@@ -356,6 +377,23 @@ img {
   color: #88470a;
 }
 
+.under-title {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .under-title {
+    display: block;
+    width: 150px;
+    height: 85px;
+    margin-left: 217px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .under-title {
+    margin-left: 256px;
+  }
+}
+
 .group-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -385,12 +423,29 @@ img {
   }
 }
 
+.chain-of-stores {
+  text-align: end;
+}
+
 .amount {
   display: none;
 }
 @media screen and (min-width: 768px) {
   .amount {
     display: block;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .amount {
+    font-size: 46px;
+    line-height: 56px;
   }
 }
 
@@ -400,5 +455,17 @@ img {
 @media screen and (min-width: 768px) {
   .text {
     display: block;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2142857143;
+    text-align: right;
   }
 }/*# sourceMappingURL=main.css.map */
