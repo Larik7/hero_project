@@ -79,10 +79,23 @@
             </button>
           </div>
           <div class="group-img">
-            <img class="ice-cream" src="./images/ice_cream/2v1_sm-@1x.png" alt="" width: 100%;
-            height: 218px; /> <img class="many-ice-cream"
-            src="./images/ice_cream/many-ice-cream_md-@1x.png" alt="" width: 152px; height: 152px;
+            <img
+              class="ice-cream"
+              srcset="
+                ./images/ice_cream/2v1_sm-@1x-320.png   320w,
+                ./images/ice_cream/2v1_sm-@2x-640.png   640w,
+                ./images/ice_cream/2v1_md-@1x-768.png   768w,
+                ./images/ice_cream/2v1_md-@2x-1535.png 1535w,
+                ./images/ice_cream/2v1_lg-@1x-1200.png 1200w,
+                ./images/ice_cream/2v1_lg-@2x-2400.png 2400w
+              "
+              sizes="(min-width: 1200px) 1200px, (min-width: 768px) 768px, (min-width: 320px) 320px, 100vw"
+              src="./images/ice_cream/2v1_sm-@1x-320.png"
+              alt="ice-cream"
             />
+
+            <img class="many-ice-cream" src="./images/ice_cream/many-ice-cream_md-@1x.png" alt="many
+            ice-cream" width: 152px; height: 152px; />
           </div>
         </div>
       </section>
