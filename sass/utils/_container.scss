@@ -1,8 +1,9 @@
 .container {
     // mobile styles
+    min-width: 320px;
     max-width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
     outline: 2px solid red;
@@ -11,10 +12,14 @@
     // tablet styles
     @media screen and (min-width: 768px) {
         max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     // desktop styles
     @media screen and (min-width: 1200px) {
         max-width: 1200px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
