@@ -1,6 +1,9 @@
 .hero {
-    position: relative;
+    // position: relative;
+    // margin-left: auto;
+    // margin-right: auto;
     padding-top: 50px;
+    padding-bottom: 240px;
     background-color: var(--main-bg-cl);
 
     &_title {
@@ -35,11 +38,13 @@
     }
 }
 
+.hero__container {
+    position: relative;
+}
 
 .btn-group {
     display: flex;
     gap: 8px;
-    margin-bottom: 20px;
 }
 
 .poducts-btn {
@@ -113,6 +118,26 @@
     color: #88470a;
 }
 
+.group-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .ice-cream {
-    position: relative;
+    position: absolute;
+    top: 85px;
+    z-index: 10;
+}
+
+.many-ice-cream {
+    display: none;
+    position: absolute;
+    left: 32px;
+    top: 200px;
+    z-index: 100;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
 }
