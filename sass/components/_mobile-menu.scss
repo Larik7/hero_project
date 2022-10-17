@@ -6,7 +6,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 50px 40px;
+    padding: 20px 32px;
     background-color: var(--main-bg-cl);
     transform: translateX(100%);
     transition: transform var(--anim-slow);
@@ -52,16 +52,19 @@
 }
 
 .mobile-nav {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: calc(47 / 40);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: calc(59 / 48);
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
     transition: color var(--anim-slow);
 
     &:hover,
     :focus {
-        color: var(--accent-txt-cl);
+        color: var(--second-txt-cl);
     }
 }
 
