@@ -47,6 +47,7 @@
  }
 
 .nav_item {
+    transition: color var(--anim-slow);
     &:hover,
     &:focus {
         color: var(--accent-txt-cl);

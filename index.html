@@ -71,12 +71,18 @@
           <div class="top-hero">
             <div class="hero-group">
               <h1 class="hero_title">ice cream made with passion</h1>
-              <button class="poducts-btn" type="button">
-                <a class="link link-not" href="">Products</a>
-              </button>
-              <button class="how-btn" type="button">
-                <a class="link link-not" href="">How it’s made?</a>
-              </button>
+              <ul class="bnt-group">
+                <li class="list">
+                  <button class="poducts-btn" type="button">
+                    <a class="link link-not" href="">Products</a>
+                  </button>
+                </li>
+                <li class="list">
+                  <button class="how-btn" type="button">
+                    <a class="link link-not" href="">How it’s made?</a>
+                  </button>
+                </li>
+              </ul>
             </div>
           
             <div class="chain-of-stores">
@@ -123,5 +129,48 @@
         </div> -->
       </section>
     </main>
+    <!-- menu mobile -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <a class="logo" href="./index.html">
+        <svg class="logo" width="40" height="37">
+          <use href="./images/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./images/sprite.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="mobile-nav">
+          <a class="mobile-link link" href="./index.html">Home</a>
+        </li>
+        <li class="mobile-nav">
+          <a class="mobile-link link" href="">How it’s made?</a>
+        </li>
+        <li class="mobile-nav">
+          <a class="mobile-link link" href="">Our products</a>
+        </li>
+        <li class="mobile-nav">
+          <a class="mobile-link link" href="">Contact</a>
+        </li>
+      </ul>
+      <button class="buy_btn" type="button">
+        Buy now
+        <svg class="buy_btn_icon" width="12" height="12">
+          <use href="./images/sprite.svg#icon-buy"></use>
+        </svg>
+      </button>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
