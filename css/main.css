@@ -259,8 +259,9 @@ img {
   position: relative;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -268,9 +269,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-column-gap: 50%;
-     -moz-column-gap: 50%;
-          column-gap: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,8 +280,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 8px;
-  margin-right: auto;
-  margin-bottom: 56px;
 }
 
 .poducts-btn {
@@ -322,12 +318,10 @@ img {
     line-height: 1.2857142857;
   }
 }
-
-.poducts-btn:hover {
+.poducts-btn .poducts-btn:hover {
   border-color: #0A8817;
 }
-
-.poducts-btn:focus {
+.poducts-btn .poducts-btn:focus {
   border-color: #88470a;
 }
 
@@ -368,32 +362,23 @@ img {
     line-height: 1.2142857143;
   }
 }
-
-.how-btn:hover {
+.how-btn .how-btn:hover {
   color: #0A8817;
 }
-
-.how-btn:focus {
+.how-btn .how-btn:focus {
   color: #88470a;
 }
 
 .under-title {
   display: none;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .under-title {
     display: block;
     width: 150px;
     height: 85px;
-    margin-left: 217px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .under-title {
-    margin-left: 256px;
-  }
-}
-
 .group-img {
   display: -webkit-box;
   display: -ms-flexbox;

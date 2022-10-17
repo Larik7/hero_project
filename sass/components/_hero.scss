@@ -41,10 +41,9 @@
 .hero__container {
     position: relative;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     flex-direction: row;
-    column-gap: calc(100% / 2);
     display: flex;
     margin: 0 auto;
 }
@@ -52,8 +51,8 @@
 .btn-group {
     display: flex;
     gap: 8px;
-    margin-right: auto;
-    margin-bottom: 56px;
+    // margin-right: auto;
+    // margin-bottom: 56px;
 }
 
 .poducts-btn {
@@ -81,15 +80,15 @@
         font-size: 14px;
         line-height: calc(18 / 14);
     }
-}
 
-.poducts-btn:hover {
-    border-color: #0A8817;
+    .poducts-btn:hover {
+        border-color: #0A8817;
     
-}
-
-.poducts-btn:focus {
-    border-color: #88470a;
+    }
+    
+    .poducts-btn:focus {
+        border-color: #88470a;
+    }
 }
 
 .link-not:focus {
@@ -117,28 +116,30 @@
         font-size: 14px;
         line-height: calc(17 / 14);
     }
+
+    .how-btn:hover {
+        color: #0A8817;
+    }
+    
+    .how-btn:focus {
+        color: #88470a;
+    }
 }
 
-.how-btn:hover {
-    color: #0A8817;
-}
 
-.how-btn:focus {
-    color: #88470a;
-}
 
 .under-title {
     display: none;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
         display: block;
         width: 150px;
         height: 85px;
-        margin-left: 217px;
+        
     }
 
     @media screen and (min-width: 1200px) {
-        margin-left: 256px;
+        
     }
 }
 
